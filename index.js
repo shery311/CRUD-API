@@ -6,8 +6,8 @@ const bodyParser = require("body-parser");
 
 //middlewares
 app.use(bodyParser.json());
-app.use("/user", userRoute);
-app.use("/register", registerRoute);
+app.use("/api/user", userRoute);
+app.use("/api/register", registerRoute);
 
 app.listen(8800, () => {
   console.log("Api Working!");
