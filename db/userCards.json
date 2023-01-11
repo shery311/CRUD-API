@@ -1,0 +1,94 @@
+[
+  {
+    "userId": 1,
+    "cardNo": "4024-0071-8503-8220",
+    "cvv": "531",
+    "expiryDate": "7/23",
+    "cardName": "Johann Schuppe"
+  },
+  {
+    "userId": 2,
+    "cardNo": "5399-4208-4387-7844",
+    "cvv": "415",
+    "expiryDate": "6/24",
+    "cardName": "Rocky Johnson"
+  },
+  {
+    "userId": 3,
+    "cardNo": "3480 3590 5907 751",
+    "cvv": "588",
+    "expiryDate": "12/24",
+    "cardName": "Audra Rosenbaum"
+  },
+  {
+    "userId": 4,
+    "cardNo": "2221-6753-9412-8993",
+    "cvv": "535",
+    "expiryDate": "10/24",
+    "cardName": "Austyn Goyette"
+  },
+  {
+    "userId": 5,
+    "cardNo": "4024-0071-4394-0319",
+    "cvv": "856",
+    "expiryDate": "10/24",
+    "cardName": "Coleman Feest"
+  },
+  {
+    "userId": 6,
+    "cardNo": "374-6196-2220-6105",
+    "cvv": "958",
+    "expiryDate": "10/24",
+    "cardName": "Antonia Rice"
+  },
+  {
+    "userId": 7,
+    "cardNo": "5120-9879-8187-8608",
+    "cvv": "669",
+    "expiryDate": "7/23",
+    "cardName": "Sandy Donnelly"
+  },
+  {
+    "userId": 8,
+    "cardNo": "4485-0246-7419-2816",
+    "cvv": "808",
+    "expiryDate": "5/24",
+    "cardName": "Miss Lucile Bailey DDS"
+  },
+  {
+    "userId": 9,
+    "cardNo": "371-3126-9039-5231",
+    "cvv": "206",
+    "expiryDate": "8/25",
+    "cardName": "Vincenza Conroy"
+  },
+  {
+    "userId": 10,
+    "cardNo": "4716-7652-5673-2871",
+    "cvv": "138",
+    "expiryDate": "3/23",
+    "cardName": "Angelita Mueller"
+  },
+  {
+    "userId": 14,
+    "cardNo": "5399-4208-4387-7844",
+    "cvv": "415",
+    "expiryDate": "6/24",
+    "cardName": "Rocky Johnson"
+  },
+  {
+    "userId": 17,
+    "cardNo": "4922-3495-3647-6011",
+    "cvv": "572",
+    "expiryDate": "572",
+    "cardName": "Carlo Bradtke"
+  },
+
+  {
+    "userId": 17,
+    "cardNo": "4916-7858-2545-6487",
+    "cvv": "976",
+    "expiryDate": "8/23",
+    "cardName": "Fatima Quitzon"
+  }
+]

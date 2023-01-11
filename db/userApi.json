@@ -1,0 +1,125 @@
+[
+  { "id": 1, "name": "abx", "password": "123123" },
+  {
+    "id": 2,
+    "name": "abc",
+    "email": "CiceroAbernathy@mail.com",
+    "city": "Chicago",
+    "website": "CiceroAbernathy.com",
+    "phone": "(463)206-2480",
+    "gender": "male",
+    "password": "123124"
+  },
+  {
+    "id": 3,
+    "name": "Ramiro Stiedemann",
+    "email": "RamiroStiedemann@mail.com",
+    "city": "Edwardsburg",
+    "website": "RamiroStiedemann.com",
+    "phone": "1-626-348-1055",
+    "gender": "Female",
+    "password": "123125"
+  },
+  {
+    "id": 4,
+    "name": "Pamela Mofokeng",
+    "email": "Pamela Mofokeng@mail.com",
+    "city": "Edwardsburg",
+    "website": "Pamela Mofokeng.com",
+    "phone": "022-711-5909",
+    "gender": "Female"
+  },
+  {
+    "id": 5,
+    "name": "Lee Knight",
+    "email": "Lee Knight@mail.com",
+    "city": "Hallland",
+    "website": "Lee Knight.com",
+    "phone": "022-711-5909",
+    "gender": "male"
+  },
+  {
+    "name": "shaheryar",
+    "email": "shaheryar@mail.com",
+    "id": 6,
+    "city": "karachi",
+    "website": "shaheryar.com",
+    "phone": "(5698)206-2480",
+    "gender": "male",
+    "password": "123126"
+  },
+  {
+    "name": "lama",
+    "email": "lama.com",
+    "id": 7,
+    "city": "lama",
+    "website": "lama.com",
+    "phone": "(5698)206-2480",
+    "gender": "male"
+  },
+  {
+    "id": 8,
+    "name": "lama",
+    "email": "lama.com",
+    "city": "lama",
+    "website": "lama.com",
+    "phone": "(5698)206-2480",
+    "gender": "male"
+  },
+  {
+    "id": 9,
+    "name": "lama",
+    "email": "lama.com",
+    "city": "lama",
+    "website": "lama.com",
+    "phone": "(5698)206-2480",
+    "gender": "male"
+  },
+  {
+    "id": 10,
+    "name": "lama",
+    "email": "lama.com",
+    "city": "lama",
+    "website": "lama.com",
+    "phone": "(5698)206-2480",
+    "gender": "male"
+  },
+  {
+    "id": 11,
+    "name": "lama",
+    "email": "lama.com",
+    "city": "lama",
+    "website": "lama.com",
+    "phone": "(5698)206-2480",
+    "gender": "male"
+  },
+  {
+    "id": 12,
+    "name": "lama",
+    "email": "lama.com",
+    "city": "lama",
+    "website": "lama.com",
+    "phone": "(5698)206-2480",
+    "gender": "male"
+  },
+  {
+    "id": 13,
+    "name": "liquid",
+    "email": "liquid@gmail.com",
+    "city": "liquid",
+    "website": "liquid.com",
+    "phone": "(5698)206-2480",
+    "gender": "male",
+    "password": ""
+  },
+  {
+    "id": 14,
+    "password": "abc123",
+    "name": "shery",
+    "email": "shery@gmail.com",
+    "city": "karachi",
+    "website": "shery.com",
+    "phone": "999-999-999",
+    "gender": "male"
+  }
+]
