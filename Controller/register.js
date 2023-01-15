@@ -38,11 +38,15 @@ const registerUser = (req, res) => {
   myObject.push(newUser);
 
   const q = JSON.stringify(myObject);
-  fs.writeFile("./db/userApi.json", q, (err) => {
-    // Error checking
-    if (err) return res.status(409).json(err);
-    return res.status(200).json("user has been created!");
-  });
+  fs.writeFile(
+    "https://github.com/shery311/CRUD-API/blob/master/db/userApi.json",
+    q,
+    (err) => {
+      // Error checking
+      if (err) return res.status(409).json(err);
+      return res.status(200).json("user has been created!");
+    }
+  );
 };
 
 module.exports = { registerUser };
