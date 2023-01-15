@@ -7,10 +7,7 @@ const bodyParser = require("body-parser");
 //middlewares
 app.use(bodyParser.json());
 app.use("/api/user", userRoute);
-app.use(
-  "https://smiling-ruby-cormorant.cyclic.app/api/register",
-  registerRoute
-);
+app.use("/api/register", registerRoute);
 
 app.listen(8800, () => {
   console.log("Api Working!");
