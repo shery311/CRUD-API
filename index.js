@@ -6,12 +6,13 @@ const bodyParser = require("body-parser");
 
 //middlewares
 app.use(bodyParser.json());
-app.use("/", (req, res) => {
+app.use("https://smiling-ruby-cormorant.cyclic.app", (req, res, next) => {
   res.json({
     message: "Welcome to CRUD API Testing",
     getAllUsers: "use /api/user to get all users",
     getUsersById: "use /api/user/:id to get specific user",
   });
+  next();
 });
 app.use("/api/user", userRoute);
 app.use("/api/register", registerRoute);
