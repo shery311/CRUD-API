@@ -6,13 +6,12 @@ const bodyParser = require("body-parser");
 
 //middlewares
 app.use(bodyParser.json());
-app.get("/", (req, res, next) => {
-  res.json({
+app.get("/", (req, res) => {
+  res.send({
     message: "Welcome to CRUD API Testing",
     getAllUsers: "use /api/user to get all users",
     getUsersById: "use /api/user/:id to get specific user",
   });
-  next();
 });
 app.use("/api/user", userRoute);
 app.use("/api/register", registerRoute);
