@@ -3,20 +3,23 @@ const fs = require("fs");
 const users = JSON.parse(fs.readFileSync("./db/userApi.json", "UTF-8"));
 const userCards = JSON.parse(fs.readFileSync("./db/userCards.json", "UTF-8"));
 
+// GET ALL USER CONTROLLER
 const getAllUsers = (req, res) => {
-  fs.readFile("./db/userApi.json", "utf-8", (err, data) => {
+  fs.readFile("./db/userApi.json", "UTF-8", (err, data) => {
     if (err) return res.status(500).json(err);
     return res.status(200).send(data);
   });
 };
 
+// GET USER BY ID CONTROLLER
 const getUserById = (req, res) => {
   let id = +req.params.id;
   let user = users.find((u) => u.id === id);
-  if (!user) res.status(400).json({ message: "No user exist!" });
+  if (!user) res.status(400).json({ success: fail, message: "No user exist!" });
   return res.status(200).send(user);
 };
 
+// DELETE USER CONTROLLER
 const deleteUser = (req, res) => {
   let userId = req.params.id;
   let existUser = users.findIndex((user) => {
@@ -28,7 +31,7 @@ const deleteUser = (req, res) => {
     users.splice(existUser, 1);
     const q = JSON.stringify(users);
     fs.writeFile("./db/userApi.json", q, (err) => {
-      res.status(400).send({
+      res.status(200).send({
         status: "success",
         Message: "User has been succesfully removed",
         Removed: `user with id ${removedAccount.id} has been removed`,
@@ -38,7 +41,7 @@ const deleteUser = (req, res) => {
     res.status(404).send({ status: "failed", Message: "User does not exist" });
   }
 };
-
+// UPDATE USER CONTROLLER
 const updateUser = (req, res) => {
   // Taking user data for update
   let id = +req.params.id;
@@ -65,7 +68,7 @@ const updateUser = (req, res) => {
     res.status(404).send({ status: "failed", Message: "User does not exist" });
   }
 };
-
+// LOGIN USER CONTROLLER
 const loginUser = (req, res) => {
   let email = req.body.email;
   let password = req.body.password;

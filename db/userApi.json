@@ -1,5 +1,14 @@
 [
-  { "id": 1, "name": "abx", "password": "123123" },
+  {
+    "id": 1,
+    "name": "abx",
+    "email": "Cicero@mail.com",
+    "city": "Chicago",
+    "website": "CiceroAbernathy.com",
+    "phone": "(463)206-2480",
+    "gender": "male",
+    "password": "123123"
+  },
   {
     "id": 2,
     "name": "abc",
