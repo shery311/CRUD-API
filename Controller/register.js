@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 const registerUser = (req, res) => {
-  const users = JSON.parse(fs.readFileSync("https://smiling-ruby-cormorant.cyclic.app./db/userApi.json", "UTF-8"));
+  const users = JSON.parse(fs.readFileSync("./db/userApi.json", "UTF-8"));
   const myObject = users;
 
   //auto incrementing new user id
