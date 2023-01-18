@@ -16,7 +16,8 @@ const getUserById = (req, res) => {
   let id = +req.params.id;
   let user = users.find((u) => u.id === id);
   if (!user) res.status(400).json({ success: fail, message: "No user exist!" });
-  return res.status(200).send(user);
+  let { password, ...foundUser } = user; // removing password in response
+  return res.status(200).send(foundUser);
 };
 
 // DELETE USER CONTROLLER

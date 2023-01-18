@@ -8,6 +8,7 @@ const {
   loginUser,
 } = require("../Controller/users");
 
+const url = "https://smiling-ruby-cormorant.cyclic.app/";
 //GET ALL USERS ROUTE
 router.get("/", getAllUsers);
 

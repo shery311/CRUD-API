@@ -2,7 +2,8 @@ const express = require("express");
 const router = express.Router();
 const { registerUser } = require("../Controller/register");
 
-//REGISTER USE ROUTE
-router.post("/user", registerUser);
+const url = "https://smiling-ruby-cormorant.cyclic.app/";
+//REGISTER USER ROUTE
+router.post(url + "/user", registerUser);
 
 module.exports = router;
