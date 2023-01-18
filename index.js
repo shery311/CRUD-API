@@ -4,7 +4,6 @@ const userRoute = require("./routes/user.js");
 const registerRoute = require("./routes/register.js");
 const bodyParser = require("body-parser");
 
-const url = "https://smiling-ruby-cormorant.cyclic.app/";
 //middlewares
 app.use(bodyParser.json());
 app.get("/", (req, res) => {
@@ -15,7 +14,7 @@ app.get("/", (req, res) => {
   });
 });
 app.use("/api/user", userRoute);
-app.use(url + "/api/register", registerRoute);
+app.use("/api/register", registerRoute);
 
 app.listen(8800, () => {
   console.log("Api Working!");
